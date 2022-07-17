@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 set -e
 yarn build
-cd docs/.vuepress/dist
+cd .vuepress/dist
 git init
 git add -A
 git commit -m 'deploy'
